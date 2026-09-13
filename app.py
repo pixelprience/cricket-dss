@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # --- 1. LOAD THE SAVED AI MODELS ---
-rf_model = joblib.load('cricket_rf_model.joblib')
-model_features = joblib.load('model_features.joblib')
+rf_model = joblib.load('models/cricket_rf_model.joblib')
+model_features = joblib.load('models/model_features.joblib')
 
 # --- 2. BUILD THE USER INTERFACE ---
 st.set_page_config(page_title="T20 Predictor", layout="wide")
